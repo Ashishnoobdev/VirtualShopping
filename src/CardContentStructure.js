@@ -40,5 +40,23 @@ export const cardContentStructure = [
         name: 'MorningStar',
         description: 'Fuck off Nigga!',
         price: '$$'
+    },
+    {
+        id: 8,
+        name: 'NewItem',
+        description: 'Be Nice!',
+        price: '100$'
+    },
+    {
+        id: 9,
+        name: 'More Items',
+        description: 'This is the description',
+        price: '10$'
+    },
+    {
+        id: 10,
+        name: 'I am tenth',
+        description: 'This is the description',
+        price: '90$'
     }
 ];
