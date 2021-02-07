@@ -9,7 +9,7 @@ const CardList = ({ cardContentStructure }) => {
             cardContentStructure.map((item, i) => {
                 return (
                     <Card 
-                        key={item.id} 
+                        key={i} 
                         id={item.id} 
                         name={item.name} 
                         description={item.description} 
