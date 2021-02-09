@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VirtualShopping/static/css/main.2d75758c.chunk.css",
+    "main.js": "/VirtualShopping/static/js/main.3ab39f39.chunk.js",
+    "main.js.map": "/VirtualShopping/static/js/main.3ab39f39.chunk.js.map",
+    "runtime-main.js": "/VirtualShopping/static/js/runtime-main.b6fdfbdd.js",
+    "runtime-main.js.map": "/VirtualShopping/static/js/runtime-main.b6fdfbdd.js.map",
+    "static/js/2.c6fd2a05.chunk.js": "/VirtualShopping/static/js/2.c6fd2a05.chunk.js",
+    "static/js/2.c6fd2a05.chunk.js.map": "/VirtualShopping/static/js/2.c6fd2a05.chunk.js.map",
+    "static/js/3.e091ddc8.chunk.js": "/VirtualShopping/static/js/3.e091ddc8.chunk.js",
+    "static/js/3.e091ddc8.chunk.js.map": "/VirtualShopping/static/js/3.e091ddc8.chunk.js.map",
+    "index.html": "/VirtualShopping/index.html",
+    "static/css/main.2d75758c.chunk.css.map": "/VirtualShopping/static/css/main.2d75758c.chunk.css.map",
+    "static/js/2.c6fd2a05.chunk.js.LICENSE.txt": "/VirtualShopping/static/js/2.c6fd2a05.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6fdfbdd.js",
+    "static/js/2.c6fd2a05.chunk.js",
+    "static/css/main.2d75758c.chunk.css",
+    "static/js/main.3ab39f39.chunk.js"
+  ]
+}
