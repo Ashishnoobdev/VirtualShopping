@@ -27,19 +27,19 @@ class App extends React.Component {
     }
 
     render() {
-        const filteredItem = this.state.items.filter(item => {
-            return (item.description.toLowerCase().includes(this.state.searchValue.toLowerCase()) || item.name.toLowerCase().includes(this.state.searchValue.toLowerCase()))
-        });
-
         // Logic to display items
         const { items, currentPage, itemsPerPage } = this.state;
         const indexOfLastItem = currentPage * itemsPerPage;
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
         const currentItem = items.slice(indexOfFirstItem, indexOfLastItem);
 
+        const filteredItem = this.state.items.filter(item => {
+            return (item.description.toLowerCase().includes(this.state.searchValue.toLowerCase()) || item.name.toLowerCase().includes(this.state.searchValue.toLowerCase()))
+        });
+
+        console.log(filteredItem);
         // Logic to display pageNumbers
         const pageNumbers = [];
-        console.log(items.length);
         for(let i = 1; i <= Math.ceil(items.length/itemsPerPage); i++) {
             pageNumbers.push(i);
         };
@@ -72,7 +72,7 @@ class App extends React.Component {
                     {renderPageNumbers}
                 </div>
                 <Scroll>
-                    <CardList cardContentStructure={currentItem} />
+                    <CardList cardContentStructure={filteredItem.length !== this.state.items.length ? filteredItem : currentItem} />
                 </Scroll>
             </div>
         )
